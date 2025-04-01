@@ -147,62 +147,6 @@ const quizData = [
     correct:
       "B) permite que o conteúdo estático seja escrito sem a necessidade de utilizar código Java.",
   },
-  {
-    question:
-      "15. No Java EE 6 os métodos doPost e doGet podem ser sobrescritos em uma servlet criada na aplicação para receberem as requisições vindas de páginas HTML. Quando sobrescritos na servlet, eles substituem seus métodos ancestrais existentes na classe abstrata",
-    options: [
-      "A) GenericServlet",
-      "B) HttpServlet",
-      "C) Servlet",
-      "D) HttpService",
-    ],
-    correct: "B) HttpServlet",
-  },
-  {
-    question: "16. Na plataforma J2EE, a classe ServletRequest define",
-    options: [
-      "A) a estrutura do objeto principal do Servlet, permitindo que sejam feitas requisições ao Servlet.",
-      "B) a estrutura do objeto principal do Servlet, permitindo que sejam feitas respostas ao Servlet.",
-      "C) a estrutura do objeto principal do Servlet, permitindo que sejam feitas requisições ao cliente.",
-      "D) a estrutura do objeto principal do Servlet, permitindo que sejam feitas respostas ao cliente.",
-    ],
-    correct:
-      "A) a estrutura do objeto principal do Servlet, permitindo que sejam feitas requisições ao Servlet.",
-  },
-  {
-    question:
-      "17. Seja a seguinte definição, no contexto da tecnologia Java EE: 'Uma entidade de software que fornece serviços para componentes, incluindo a gestão do ciclo de vida, segurança, serviços de implantação e execução.' A definição acima se aplica a qual das opções a seguir?",
-    options: ["A) Containers", "B) Servlets", "C) JSPs", "D) EJBs"],
-    correct: "A) Containers",
-  },
-  {
-    question:
-      "18. Para inserir fragmentos de código Java em uma página JSP, chamados de scriptlets, é necessário utilizar os delimitadores",
-    options: ["A) <% e %>", "B) {{ e }}", "C) <%-- e --%>", "D) <!-- e -->"],
-    correct: "A) <% e %>",
-  },
-  {
-    question:
-      "19. Assinale a alternativa que indica uma linha de comentário válida dentro de um arquivo JSP:",
-    options: [
-      "A) // Comentário",
-      "B) /* Comentário */",
-      "C) <!-- Comentário -->",
-      "D) <%-- Comentário --%>",
-    ],
-    correct: "D) <%-- Comentário --%>",
-  },
-  {
-    question:
-      "20. Assinale a alternativa que apresenta instruções corretas em sintaxe válida JSP para inicializar e imprimir o valor da variável num.",
-    options: [
-      "A) <% int num = 2; %> <%= num %>",
-      "B) <% int num = 2; %> ${num}",
-      "C) <% int num = 2; %> {{num}}",
-      "D) <% int num = 2; %> <num>",
-    ],
-    correct: "A) <% int num = 2; %> <%= num %>",
-  },
 
 ];
 
